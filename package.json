@@ -1,0 +1,16 @@
+{
+  "name": "natemago.pw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/natemago/natemago.pw",
+  "author": "Pavle Jonoski <jonoski.pavle@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}

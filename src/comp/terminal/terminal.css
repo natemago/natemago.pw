@@ -1,0 +1,32 @@
+.terminal {
+    perspective: 960px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 960px;
+    height: 600px;
+    
+    /* Move to theme ...*/
+    background: rgb(15, 29, 36);
+    color: #da9124;
+    text-shadow: #da9124 0px 0px 10px;
+    /* animation: text_flicker 30000ms infinite; */
+    /* scale: 0.6; */
+}
+.cell {
+    perspective: 960px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* height: 24px;
+    width: 24px; */
+    /* border: solid 1px rgb(27, 28, 107); */
+    font-size: 24px;
+
+    /* Move to theme */
+    font-family: "VT323", monospace;
+    /* animation: text_flicker 300000ms infinite; */
+}
